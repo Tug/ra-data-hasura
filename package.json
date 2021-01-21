@@ -27,6 +27,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "prepare": "npm run build",
     "build": "webpack --mode production",
     "prettier": "prettier --config ./.prettierrc --write '**/*.{js,jsx,md}'"
   },
@@ -52,8 +53,8 @@
     "jsonexport": "^2.4.1",
     "prettier": "^2.1.2",
     "pretty-quick": "^3.1.0",
-    "react-admin": "^3.9.0",
     "react": "^16.13.1",
+    "react-admin": "^3.9.0",
     "react-dom": "^16.13.1",
     "react-final-form": "^6.3.5",
     "react-redux": "^7.2.0",
